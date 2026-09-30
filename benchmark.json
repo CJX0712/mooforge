@@ -1,0 +1,1056 @@
+{
+  "meta": {
+    "system": "MOOForge",
+    "seed": 42,
+    "n_evals": 2400,
+    "pop_size": 48,
+    "n_seeds": 3,
+    "ablation_seeds": 2,
+    "problems": [
+      "ZDT1",
+      "ZDT4",
+      "DTLZ2"
+    ],
+    "hpo_used": false,
+    "hpo_params": {
+      "c": 1.4,
+      "stall": 8,
+      "f_scale": 0.5,
+      "cr": 0.9
+    },
+    "runtime_sec": 98.597
+  },
+  "records": [
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 1.13558,
+      "hv": 0.9671081969166156,
+      "igd": 0.016164644316579258,
+      "spacing": 0.009774074039395625,
+      "spread": 1.0040201490628875,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.150724,
+      "hv": 0.9669059135305844,
+      "igd": 0.01717550217611089,
+      "spacing": 0.011284657508246943,
+      "spread": 1.0600802641035127,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.198607,
+      "hv": 0.966885413032723,
+      "igd": 0.01702203622352924,
+      "spacing": 0.010284939016963913,
+      "spread": 1.0225666443157186,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.290043,
+      "hv": 0.9971173922441925,
+      "igd": 0.7162805758977172,
+      "spacing": 0.02635073475529808,
+      "spread": 0.9996892070441311,
+      "n_solutions": 30,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.303933,
+      "hv": 0.9947344292836288,
+      "igd": 1.8749594903778852,
+      "spacing": 0.020262714065886138,
+      "spread": 0.4655410078902443,
+      "n_solutions": 30,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.167815,
+      "hv": 0.996085444511164,
+      "igd": 1.3129614534855234,
+      "spacing": 0.03690649013167987,
+      "spread": 0.29723859224540955,
+      "n_solutions": 23,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.228301,
+      "hv": 0.7708633194257656,
+      "igd": 0.04763171485886724,
+      "spacing": 0.0714681646798983,
+      "spread": 1.0234342421955296,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.21029,
+      "hv": 0.7665319575576082,
+      "igd": 0.05187194143383416,
+      "spacing": 0.03717791028176797,
+      "spread": 1.1376198998130804,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Pymoo",
+      "backend": "pymoo",
+      "n_evals": 2400,
+      "elapsed_sec": 0.216219,
+      "hv": 0.7687256927370943,
+      "igd": 0.05250710319921692,
+      "spacing": 0.06097735664525185,
+      "spread": 1.0265466874293545,
+      "n_solutions": 48,
+      "meta": {
+        "algorithm": "NSGA2"
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.900065,
+      "hv": 0.8454956739443891,
+      "igd": 1.0981635078655325,
+      "spacing": 0.016219466465655048,
+      "spread": 1.184999987632472,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.087776,
+      "hv": 0.8402371078100017,
+      "igd": 0.9801105638921435,
+      "spacing": 0.02590082559277892,
+      "spread": 1.8798114305173677,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.991825,
+      "hv": 0.8550636763929557,
+      "igd": 0.6790114338009804,
+      "spacing": 0.03574271482416524,
+      "spread": 2.46852548566699,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.389702,
+      "hv": 0.9883388500268158,
+      "igd": 3.5356981172481636,
+      "spacing": 0.2877640526562638,
+      "spread": 9.044099809557393,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.307511,
+      "hv": 0.9822407387852312,
+      "igd": 7.657739047698957,
+      "spacing": 0.010870288205060075,
+      "spread": 2.397306430047104e-09,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.023787,
+      "hv": 0.9770761028533668,
+      "igd": 7.005871089526215,
+      "spacing": 0.3156467106947069,
+      "spread": 6.0835924205472,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.355094,
+      "hv": 0.6958576069729734,
+      "igd": 0.1755432126455176,
+      "spacing": 0.059303529675173466,
+      "spread": 1.858957066185997,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.921783,
+      "hv": 0.6519571598404401,
+      "igd": 0.1462076120219469,
+      "spacing": 0.07086741379754662,
+      "spread": 3.18776505248283,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "NSGA2-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.898725,
+      "hv": 0.6692386719575246,
+      "igd": 0.1580013976333131,
+      "spacing": 0.04017671700254021,
+      "spread": 2.059754682034634,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.026405,
+      "hv": 0.9662667485233182,
+      "igd": 0.020576934065696585,
+      "spacing": 0.015910473463501384,
+      "spread": 1.0335357700771894,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.898958,
+      "hv": 0.9646555912668223,
+      "igd": 0.0325937472519217,
+      "spacing": 0.011347377843401245,
+      "spread": 1.0297945180616142,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.760611,
+      "hv": 0.9667533509225789,
+      "igd": 0.01828550007378098,
+      "spacing": 0.008384751275576021,
+      "spread": 0.9976146467275613,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.079895,
+      "hv": 0.9979486665739428,
+      "igd": 0.28820525661846724,
+      "spacing": 0.08005973404815285,
+      "spread": 2.4054242163389983,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.579831,
+      "hv": 0.9981595505255658,
+      "igd": 0.42955789747699186,
+      "spacing": 0.08605360477422452,
+      "spread": 1.7706184018381577,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.028462,
+      "hv": 0.9992064423240405,
+      "igd": 0.012366928188529289,
+      "spacing": 0.012085821676580335,
+      "spread": 0.9965383737414467,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 1.998033,
+      "hv": 0.7639104098646594,
+      "igd": 0.054667691032902824,
+      "spacing": 0.04650410705722543,
+      "spread": 1.1036953939877594,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.138879,
+      "hv": 0.7607095179077838,
+      "igd": 0.06949212621611568,
+      "spacing": 0.054229307526093375,
+      "spread": 1.3125952291026415,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "DE-Numpy",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.042564,
+      "hv": 0.7668606903601585,
+      "igd": 0.05521325222719478,
+      "spacing": 0.047937994365370246,
+      "spread": 1.111008999130948,
+      "n_solutions": 48,
+      "meta": {}
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 3.16414,
+      "hv": 0.9500198031406356,
+      "igd": 0.1417173122419616,
+      "spacing": 0.02331650850422245,
+      "spread": 0.9955651569139436,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.843182,
+      "hv": 0.9427064058791175,
+      "igd": 0.17578170216114908,
+      "spacing": 0.02855504834135616,
+      "spread": 1.2410157071235588,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.988697,
+      "hv": 0.9519159439385586,
+      "igd": 0.12224670576128772,
+      "spacing": 0.019281616459855107,
+      "spread": 1.1388831065994156,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.624802,
+      "hv": 0.9969405406346659,
+      "igd": 0.9369458738394345,
+      "spacing": 0.03205233712685566,
+      "spread": 0.4693066613032931,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.673489,
+      "hv": 0.998206370137498,
+      "igd": 0.2930057256918477,
+      "spacing": 0.3125457895055948,
+      "spread": 21.145653177902425,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.628138,
+      "hv": 0.9960874103141529,
+      "igd": 1.3184522587180496,
+      "spacing": 0.0314126704185869,
+      "spread": 0.31421018765440956,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.493249,
+      "hv": 0.7575843583478548,
+      "igd": 0.06717848303078197,
+      "spacing": 0.05546810488931633,
+      "spread": 1.2185213479234938,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 3.493998,
+      "hv": 0.7512181114910514,
+      "igd": 0.06772040734514126,
+      "spacing": 0.07433969552875981,
+      "spread": 1.1562591246762277,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-MOEA",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.730979,
+      "hv": 0.7627356352286873,
+      "igd": 0.07017881733096655,
+      "spacing": 0.07555215738768024,
+      "spread": 1.4102861104574733,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.770815,
+      "hv": 0.9500198031406356,
+      "igd": 0.1417173122419616,
+      "spacing": 0.02331650850422245,
+      "spread": 0.9955651569139436,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.43204,
+      "hv": 0.9427064058791175,
+      "igd": 0.17578170216114908,
+      "spacing": 0.02855504834135616,
+      "spread": 1.2410157071235588,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.519657,
+      "hv": 0.9969405406346659,
+      "igd": 0.9369458738394345,
+      "spacing": 0.03205233712685566,
+      "spread": 0.4693066613032931,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.569043,
+      "hv": 0.998206370137498,
+      "igd": 0.2930057256918477,
+      "spacing": 0.3125457895055948,
+      "spread": 21.145653177902425,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 3.244845,
+      "hv": 0.7605476820133118,
+      "igd": 0.06415729943799021,
+      "spacing": 0.06257059352901874,
+      "spread": 1.1388297744367346,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-NoRestart",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.658962,
+      "hv": 0.7542111931802786,
+      "igd": 0.07132899896495845,
+      "spacing": 0.0730884658814478,
+      "spread": 1.1421190756529807,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.603777,
+      "hv": 0.8129065043331523,
+      "igd": 0.9574262155389601,
+      "spacing": 0.02331738990242361,
+      "spread": 2.2612684445520115,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT1",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.519594,
+      "hv": 0.8343072004222275,
+      "igd": 0.9780791092483012,
+      "spacing": 0.018498252518040496,
+      "spread": 1.5545508486016346,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.312129,
+      "hv": 0.9827989464276062,
+      "igd": 7.405692080390066,
+      "spacing": 0.09036972318825783,
+      "spread": 0.0018334652170031874,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "ZDT4",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.444261,
+      "hv": 0.9871269869487868,
+      "igd": 2.995808800449052,
+      "spacing": 0.06372727375377195,
+      "spread": 3.421278347164686,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.779137,
+      "hv": 0.7104078288799911,
+      "igd": 0.18439571755434817,
+      "spacing": 0.06095806004278534,
+      "spread": 1.7964544057774705,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    },
+    {
+      "problem": "DTLZ2",
+      "algorithm": "AHVA-FixedSBX",
+      "backend": "numpy",
+      "n_evals": 2400,
+      "elapsed_sec": 2.693788,
+      "hv": 0.6793581417750538,
+      "igd": 0.17025801777108404,
+      "spacing": 0.05051568804814169,
+      "spread": 2.1451303879664922,
+      "n_solutions": 48,
+      "meta": {
+        "operators": [
+          "sbx",
+          "de",
+          "pm"
+        ],
+        "restart_stall": 8
+      }
+    }
+  ],
+  "summary": {
+    "NSGA2-Pymoo::ZDT1": {
+      "hv_mean": 0.9669665078266411,
+      "hv_std": 0.00010053827220356906,
+      "igd_mean": 0.016787394238739796,
+      "igd_std": 0.0004447853780672689,
+      "spacing_mean": 0.010447890188202158,
+      "spread_mean": 1.0288890191607063,
+      "n": 3
+    },
+    "NSGA2-Pymoo::ZDT4": {
+      "hv_mean": 0.9959790886796617,
+      "hv_std": 0.0009757430638665631,
+      "igd_mean": 1.301400506587042,
+      "igd_std": 0.47309931891385293,
+      "spacing_mean": 0.027839979650954694,
+      "spread_mean": 0.5874896023932616,
+      "n": 3
+    },
+    "NSGA2-Pymoo::DTLZ2": {
+      "hv_mean": 0.7687069899068226,
+      "hv_std": 0.0017683205318657863,
+      "igd_mean": 0.05067025316397278,
+      "igd_std": 0.0021641617146516945,
+      "spacing_mean": 0.05654114386897271,
+      "spread_mean": 1.062533609812655,
+      "n": 3
+    },
+    "NSGA2-Numpy::ZDT1": {
+      "hv_mean": 0.8469321527157821,
+      "hv_std": 0.006137555834464644,
+      "igd_mean": 0.9190951685195521,
+      "igd_std": 0.17647336749494558,
+      "spacing_mean": 0.025954335627533066,
+      "spread_mean": 1.84444563460561,
+      "n": 3
+    },
+    "NSGA2-Numpy::ZDT4": {
+      "hv_mean": 0.9825518972218047,
+      "hv_std": 0.0046032584946424215,
+      "igd_mean": 6.066436084824446,
+      "igd_std": 1.8091819429643095,
+      "spacing_mean": 0.20476035051867694,
+      "spread_mean": 5.042564077500633,
+      "n": 3
+    },
+    "NSGA2-Numpy::DTLZ2": {
+      "hv_mean": 0.6723511462569793,
+      "hv_std": 0.018056908868125093,
+      "igd_mean": 0.15991740743359253,
+      "igd_std": 0.012052598230325976,
+      "spacing_mean": 0.05678255349175343,
+      "spread_mean": 2.3688256002344867,
+      "n": 3
+    },
+    "DE-Numpy::ZDT1": {
+      "hv_mean": 0.9658918969042398,
+      "hv_std": 0.0008964872914415144,
+      "igd_mean": 0.023818727130466424,
+      "igd_std": 0.006274998062883383,
+      "spacing_mean": 0.011880867527492884,
+      "spread_mean": 1.0203149782887884,
+      "n": 3
+    },
+    "DE-Numpy::ZDT4": {
+      "hv_mean": 0.9984382198078497,
+      "hv_std": 0.000549995385465473,
+      "igd_mean": 0.24337669409466278,
+      "igd_std": 0.17324217390197788,
+      "spacing_mean": 0.059399720166319246,
+      "spread_mean": 1.7241936639728677,
+      "n": 3
+    },
+    "DE-Numpy::DTLZ2": {
+      "hv_mean": 0.7638268727108674,
+      "hv_std": 0.002511900273599103,
+      "igd_mean": 0.059791023158737765,
+      "igd_std": 0.0068633305642659004,
+      "spacing_mean": 0.04955713631622968,
+      "spread_mean": 1.1757665407404494,
+      "n": 3
+    },
+    "AHVA-MOEA::ZDT1": {
+      "hv_mean": 0.9482140509861039,
+      "hv_std": 0.003970680332115278,
+      "igd_mean": 0.14658190672146612,
+      "igd_std": 0.02212460424460833,
+      "spacing_mean": 0.023717724435144572,
+      "spread_mean": 1.1251546568789728,
+      "n": 3
+    },
+    "AHVA-MOEA::ZDT4": {
+      "hv_mean": 0.9970781070287723,
+      "hv_std": 0.0008705136674509076,
+      "igd_mean": 0.8494679527497772,
+      "igd_std": 0.4231819451351003,
+      "spacing_mean": 0.1253369323503458,
+      "spread_mean": 7.309723342286709,
+      "n": 3
+    },
+    "AHVA-MOEA::DTLZ2": {
+      "hv_mean": 0.7571793683558644,
+      "hv_std": 0.004710721879001868,
+      "igd_mean": 0.06835923590229659,
+      "igd_std": 0.001305521076631574,
+      "spacing_mean": 0.06845331926858546,
+      "spread_mean": 1.261688861019065,
+      "n": 3
+    },
+    "AHVA-NoRestart::ZDT1": {
+      "hv_mean": 0.9463631045098766,
+      "hv_std": 0.00365669863075907,
+      "igd_mean": 0.15874950720155534,
+      "igd_std": 0.01703219495959374,
+      "spacing_mean": 0.025935778422789307,
+      "spread_mean": 1.1182904320187512,
+      "n": 2
+    },
+    "AHVA-NoRestart::ZDT4": {
+      "hv_mean": 0.997573455386082,
+      "hv_std": 0.0006329147514160804,
+      "igd_mean": 0.6149757997656411,
+      "igd_std": 0.3219700740737934,
+      "spacing_mean": 0.17229906331622524,
+      "spread_mean": 10.807479919602859,
+      "n": 2
+    },
+    "AHVA-NoRestart::DTLZ2": {
+      "hv_mean": 0.7573794375967953,
+      "hv_std": 0.0031682444165165857,
+      "igd_mean": 0.06774314920147434,
+      "igd_std": 0.0035858497634841183,
+      "spacing_mean": 0.06782952970523326,
+      "spread_mean": 1.1404744250448577,
+      "n": 2
+    },
+    "AHVA-FixedSBX::ZDT1": {
+      "hv_mean": 0.8236068523776898,
+      "hv_std": 0.010700348044537622,
+      "igd_mean": 0.9677526623936307,
+      "igd_std": 0.010326446854670546,
+      "spacing_mean": 0.020907821210232054,
+      "spread_mean": 1.907909646576823,
+      "n": 2
+    },
+    "AHVA-FixedSBX::ZDT4": {
+      "hv_mean": 0.9849629666881965,
+      "hv_std": 0.0021640202605902603,
+      "igd_mean": 5.20075044041956,
+      "igd_std": 2.204941639970507,
+      "spacing_mean": 0.07704849847101489,
+      "spread_mean": 1.7115559061908445,
+      "n": 2
+    },
+    "AHVA-FixedSBX::DTLZ2": {
+      "hv_mean": 0.6948829853275225,
+      "hv_std": 0.015524843552468637,
+      "igd_mean": 0.1773268676627161,
+      "igd_std": 0.007068849891632062,
+      "spacing_mean": 0.055736874045463514,
+      "spread_mean": 1.9707923968719814,
+      "n": 2
+    }
+  },
+  "flagship_vs_baseline": {
+    "ZDT1": {
+      "available": true,
+      "flagship_hv_mean": 0.9482140509861039,
+      "baseline_hv_mean": 0.9669665078266411,
+      "diff": -0.01875245684053717,
+      "flagship_hv_std": 0.003970680332115278,
+      "baseline_hv_std": 0.00010053827220356906,
+      "significant": true
+    },
+    "ZDT4": {
+      "available": true,
+      "flagship_hv_mean": 0.9970781070287723,
+      "baseline_hv_mean": 0.9959790886796617,
+      "diff": 0.0010990183491106364,
+      "flagship_hv_std": 0.0008705136674509076,
+      "baseline_hv_std": 0.0009757430638665631,
+      "significant": true
+    },
+    "DTLZ2": {
+      "available": true,
+      "flagship_hv_mean": 0.7571793683558644,
+      "baseline_hv_mean": 0.7687069899068226,
+      "diff": -0.011527621550958211,
+      "flagship_hv_std": 0.004710721879001868,
+      "baseline_hv_std": 0.0017683205318657863,
+      "significant": true
+    }
+  },
+  "ablation": {
+    "ZDT1": {
+      "full": 0.9482140509861039,
+      "no_restart": 0.9463631045098766,
+      "fixed_sbx": 0.8236068523776898
+    },
+    "ZDT4": {
+      "full": 0.9970781070287723,
+      "no_restart": 0.997573455386082,
+      "fixed_sbx": 0.9849629666881965
+    },
+    "DTLZ2": {
+      "full": 0.7571793683558644,
+      "no_restart": 0.7573794375967953,
+      "fixed_sbx": 0.6948829853275225
+    }
+  },
+  "failure_cases": [
+    {
+      "algorithm": "NSGA2-Numpy",
+      "problem": "DTLZ2",
+      "hv_norm": 0.652,
+      "igd": 0.1462,
+      "attribution": "NSGA2-Numpy undershoots on DTLZ2: difficulty inherent to the objective geometry."
+    },
+    {
+      "algorithm": "AHVA-FixedSBX",
+      "problem": "DTLZ2",
+      "hv_norm": 0.6794,
+      "igd": 0.1703,
+      "attribution": "AHVA-FixedSBX undershoots on DTLZ2: difficulty inherent to the objective geometry."
+    },
+    {
+      "algorithm": "AHVA-MOEA",
+      "problem": "DTLZ2",
+      "hv_norm": 0.7512,
+      "igd": 0.0677,
+      "attribution": "AHVA-MOEA undershoots on DTLZ2: difficulty inherent to the objective geometry."
+    }
+  ],
+  "quality": {
+    "grade": "B",
+    "gate_passed": false,
+    "mean_hv_diff": -0.0097,
+    "min_hv_diff": -0.0188,
+    "all_positive": false,
+    "all_significant": true,
+    "threshold": 0.05
+  }
+}

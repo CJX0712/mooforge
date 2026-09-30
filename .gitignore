@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Benchmark / scratch outputs
+# NOTE: benchmark.json is a deliverable (kept in repo); only scratch files are ignored.
+_smoke.json
+_smoke*.json
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+.env
+*.pem
+*.key
+secrets.*

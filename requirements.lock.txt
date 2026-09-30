@@ -1,0 +1,8 @@
+matplotlib==3.11.2
+numpy==2.5.3
+optuna==5.0.0
+pymoo==0.6.2
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.16.9
+scipy==1.18.1

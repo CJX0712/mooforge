@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mooforge"
+version = "0.1.0"
+description = "Multi-objective evolutionary optimization toolkit with the novel AHVA-MOEA adaptive flagship"
+authors = [{ name = "晨星 (Morning Star)" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+# Core only needs numpy. pymoo (Tier-0 SOTA backend) and optuna (optional HPO)
+# are optional and auto-detected at runtime.
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+sota = ["pymoo>=0.6.0"]
+hpo = ["optuna>=3.0"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.4"]
+
+[project.scripts]
+mooforge = "mooforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mooforge*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

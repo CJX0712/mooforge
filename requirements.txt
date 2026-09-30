@@ -1,0 +1,11 @@
+# MOOForge runtime dependencies
+# Core is pure-numpy; pymoo (Tier-0 SOTA backend) and optuna (optional HPO) are
+# optional but recommended for the full benchmark.
+numpy>=1.24,<3
+pymoo>=0.6.0
+optuna>=3.0
+
+# Development / CI only (lint + tests)
+pytest>=7.0
+pytest-cov>=4.0
+ruff>=0.4
